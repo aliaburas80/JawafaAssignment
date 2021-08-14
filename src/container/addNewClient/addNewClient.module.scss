@@ -1,0 +1,68 @@
+.containerOverLay{
+}
+.overLayContainer{
+    position: absolute;
+    width: 100vw;
+    background: #28292b;
+    opacity: 0.6; 
+    height:1300px ;  
+    @media screen and(min-height:1000px) {
+        height:100vh  
+    }
+}
+
+.formArea{
+    z-index: 1;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 12px 6px 13px -7px #555;
+    max-width: 45%;
+    width: 45%;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 10%;
+    left: 20%;
+    right: 20%;
+}
+
+.formHeaderTitle{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #dfe3e8;
+    h3{
+        display:inline-block
+    }
+}
+
+.formTitle{
+    text-align: left;
+    font-size:20px;
+    font-weight:bolde;
+}
+
+.formBody{    
+    padding: 50px 30px;
+    table{
+        width:100%;
+       
+    }
+    table,th, td, tr {
+        border: 1px solid #dfe3e8;
+        border-collapse: collapse;
+
+    }
+}
+
+.inputStyle{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 5px;
+    border: 0;
+}
+
+.lable{
+    background-color:#f2f5f7;
+    font-size: 18px;
+    text-align: center;
+}

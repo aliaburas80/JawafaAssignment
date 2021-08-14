@@ -1,0 +1,48 @@
+.header {
+  border-bottom: 1px solid #e1e1e1;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1% 2%;
+
+  .imageContainer {
+    max-width: 25px;
+    max-height: 25px;
+  }
+
+  .imageContainerLogo {
+    width: 110px;
+  }
+
+  .imageContainerPerson {
+    width: 40px;
+  }
+
+  .menuIcon,
+  .logoImage,
+  .bellImage,
+  .personImage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .personImage {
+    border-radius: 50%;
+    border: 1px solid #222;
+  }
+
+  .informations {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .notifecationsNumber {
+      color:red;
+  }
+
+  .infoPersonName{
+      padding: 0 10px;
+  }
+}
